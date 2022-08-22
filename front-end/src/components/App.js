@@ -20,7 +20,7 @@ function App() {
   }, []);
   
   return (
-    student ? <><h1>{student.name}</h1><h2>{process.env.REACT_APP_BASE_URL}</h2></> : "Carregando?"
+    student ? <h1>{student.name}</h1> : "Carregando..."
   )
 }
 
